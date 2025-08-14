@@ -1,0 +1,6 @@
+[submodule "lib/main/PSOC6/PSOC6PDL"]
+	path = lib/main/PSOC6/PSOC6PDL
+	url = https://github.com/Infineon/mtb-pdl-cat1.git
+[submodule "lib/main/PSOC6/PSOC6HAL"]
+	path = lib/main/PSOC6/PSOC6HAL
+	url = https://github.com/Infineon/psoc6hal.git
