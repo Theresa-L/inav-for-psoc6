@@ -1,0 +1,1 @@
+target_psoc6(CY8CPROTO_062_4343W)
