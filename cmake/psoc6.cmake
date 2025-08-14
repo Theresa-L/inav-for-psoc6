@@ -1,12 +1,18 @@
+set(PSOC6_DIR "${MAIN_LIB_DIR}/main/PSOC6")
+set(PSOC6_HAL_DIR "${PSOC6_DIR}/PSOC6HAL")
+set(PSOC6_HAL_INCLUDE_DIR "${PSOC6_HAL_DIR}/include")
+set(PSOC6_HAL_COMPONENT_INCLUDE_DIR "${PSOC6_HAL_DIR}/COMPONENT_PSOC6HAL/include")
+set(PSOC6_HAL_COMPONENT_SOURCE_DIR "${PSOC6_HAL_DIR}/COMPONENT_PSOC6HAL/source")
+
+
+set(PSOC6_PDL_DIR "${PSOC6_DIR}/PSOC6PDL")
+set(PSOC6_PDL_DEVICE_INCLUDE_DIR "${PSOC6_PDL_DIR}/devices/COMPONENT_CAT1A/include")
+set(PSOC6_PDL_DEVICE_SOURCE_DIR "${PSOC6_PDL_DIR}/devices/COMPONENT_CAT1A/source")
+set(PSOC6_PDL_DRIVER_INCLUDE_DIR "${PSOC6_PDL_DIR}/drivers/include")
+set(PSOC6_PDL_DRIVER_SOURCE_DIR "${PSOC6_PDL_DIR}/drivers/source")
+
+
+
 function(target_psoc6 name)
-    target_psoc6(
-        #NAME ${name}
-        #STARTUP startup_stm32f40xx.s
-        #SOURCES ${STM32F4_STDPERIPH_SRC}
-        #COMPILE_DEFINITIONS ${STM32F405_COMPILE_DEFINITIONS}
-        #LINKER_SCRIPT stm32_flash_f405xg
-        #SVD STM32F405
-        #BOOTLOADER
-        #${ARGN}
-    )
+
 endfunction()
