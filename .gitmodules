@@ -4,3 +4,9 @@
 [submodule "lib/main/PSOC6/PSOC6HAL"]
 	path = lib/main/PSOC6/PSOC6HAL
 	url = https://github.com/Infineon/psoc6hal.git
+[submodule "lib/main/PSOC6/M0P_PREBUILT_IMG"]
+	path = lib/main/PSOC6/M0P_PREBUILT_IMG
+	url = https://github.com/Infineon/cat1cm0p.git
+[submodule "lib/main/PSOC6/CY8PROTO_BSP"]
+	path = lib/main/PSOC6/CY8PROTO_BSP
+	url = https://github.com/Infineon/TARGET_CY8CPROTO-062-4343W.git
